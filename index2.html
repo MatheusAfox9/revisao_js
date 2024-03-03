@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manipulação de DOM</title>
+</head>
+<body>
+    <button id="botao">Clique aqui</button>
+
+    <script>
+        // Selecionar o elemento do botão e armazená-lo em uma variável
+        var botao = document.getElementById("botao");
+
+        // Adicionar um ouvinte de eventos ao botão para ouvir o evento de clique
+        botao.addEventListener("click", function() {
+            // Exibir um alerta quando o botão for clicado
+            alert("Botão clicado!");
+        });
+    </script>
+</body>
+</html>
